@@ -1,0 +1,60 @@
+/* 🌙 DARK MODE BACKGROUND FIX */
+body.dark-mode {
+    background: #1f2235; /* Deep indigo-like background (like screenshot) */
+    color: #f0f0f0;
+}
+
+body.dark-mode table {
+    background-color: #2a2d40;
+    color: #f9f9f9;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode th {
+    background-color: #394867;
+    color: #ffffff;
+}
+
+body.dark-mode td {
+    background-color: #303349;
+    border-color: #444;
+}
+
+body.dark-mode input[type="text"],
+body.dark-mode input[type="number"],
+body.dark-mode textarea {
+    background-color: #2f3244;
+    color: #fff;
+    border: 1px solid #666;
+}
+
+body.dark-mode input[type="submit"] {
+    background-color: #607d8b;
+    color: #fff;
+    border: none;
+}
+
+body.dark-mode a {
+    color: #90caf9;
+}
+
+/* Toggle Button */
+.dark-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.dark-toggle button {
+    padding: 6px 12px;
+    background: #37474f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-toggle button:hover {
+    background: #546e7a;
+}
